@@ -1,0 +1,18 @@
+name: WantedPointsSystem
+version: beta-2
+author: BloodSKreaper
+website: https://github.com/bloodskreaper/WantedPointsSystem
+main: me.bloodskreaper.wantedpointssystem.WantedPointsSystem
+commands:
+  wpsclear: #wps.clear; wps.clear.notify
+    usage: /wpsclear <Player>
+    description: Clear the WPS of a Player
+  su: #wps.report; wps.report.notify
+    usage: /su <Player> <WPS> <Reason>
+    description: Report a Player
+  wpsshow: #wps.show; wps.show.others
+    usage: /wpsshow [Player]
+    description: Show WPS of Player
+  wpslist: #wps.list
+    usage: /wpslist
+    description: List all players with WPS
